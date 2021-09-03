@@ -1,13 +1,13 @@
 {
   "name": "react-native-encrypted-asyncstorage",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.15.7",
     "react-native-crypto-js": "^1.0.0"
