@@ -1,15 +1,29 @@
 {
   "name": "react-native-encrypted-asyncstorage",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "react-native",
+    "redux",
+    "Keychain",
+    "Keystore",
+    "AsyncStorage",
+    "encrypted",
+    "secure",
+    "storage",
+    "android",
+    "iOS"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.15.7",
     "react-native-crypto-js": "^1.0.0"
-  }
+  },
+  "homepage": "https://github.com/abhins0554/React-Native-Encrypted-Asyncstorage#readme",
+  "repository": "https://github.com/abhins0554/React-Native-Encrypted-Asyncstorage"
 }
