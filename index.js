@@ -33,10 +33,10 @@ export const Get_Encrypted_AsyncStorage = async (type, key, encryptionKey) => {
             return null;
         }
         else {
-            let JSONData = JSON.parse(data);
-            let bytes = CryptoJS.AES.decrypt(JSONData, String(encryptionKey));
+            let bytes = CryptoJS.AES.decrypt(data, String(encryptionKey));
             let unencryptData = bytes.toString(CryptoJS.enc.Utf8);
-            return unencryptData;
+            let JSONData = JSON.parse(unencryptData);
+            return JSONData;
         }
     }
 }
