@@ -13,7 +13,9 @@ export const Set_Encrypted_AsyncStorage = async (type, key, data, encryptionKey)
         await AsyncStorage.setItem(key.toString(), encryptedData);
         return true;
     }
-}
+} 
+
+//h
 
 export const Get_Encrypted_AsyncStorage = async (type, key, encryptionKey) => {
     if (type === "text") {
