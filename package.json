@@ -21,7 +21,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@react-native-async-storage/async-storage": "^1.15.7",
+    "@react-native-async-storage/async-storage": "^1.17.9",
     "react-native-crypto-js": "^1.0.0"
   },
   "homepage": "https://github.com/abhins0554/React-Native-Encrypted-Asyncstorage#readme",
