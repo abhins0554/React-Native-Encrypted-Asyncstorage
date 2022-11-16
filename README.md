@@ -91,7 +91,7 @@ async function storeUserSession() {
 // encryptionKey key for encryption or decryption process
 
 async function storeUserSession() {
-  await Set_Encrypted_AsyncStorage(type, key, encryptionKey).then(
+  await Get_Encrypted_AsyncStorage(type, key, encryptionKey).then(
     (response) => {
       // console.log(response)
       // getting data on response
