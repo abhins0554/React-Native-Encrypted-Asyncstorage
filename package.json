@@ -21,7 +21,7 @@
   "author": "Abhishek Tripathi",
   "license": "MIT",
   "dependencies": {
-    "@react-native-async-storage/async-storage": "^1.19.1",
+    "@react-native-async-storage/async-storage": "^2.2.0",
     "react-native-crypto-js": "^1.0.0"
   },
   "homepage": "https://github.com/abhins0554/React-Native-Encrypted-Asyncstorage#readme",
