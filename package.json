@@ -1,18 +1,32 @@
 {
   "name": "react-native-encrypted-asyncstorage",
-  "version": "2.1.5",
-  "description": "",
+  "version": "2.4.0",
+  "description": "AES-encrypted values on top of AsyncStorage for React Native (JavaScript layer).",
   "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "prepublishOnly": "npm test"
   },
   "keywords": [
     "react-native",
     "redux",
-    "Keychain",
-    "Keystore",
     "AsyncStorage",
     "encrypted",
+    "AES",
     "secure",
     "storage",
     "android",
@@ -20,10 +34,26 @@
   ],
   "author": "Abhishek Tripathi",
   "license": "MIT",
+  "peerDependencies": {
+    "@react-native-async-storage/async-storage": ">=1.17.0",
+    "react-native": ">=0.60.0"
+  },
   "dependencies": {
-    "@react-native-async-storage/async-storage": "^2.2.0",
-    "react-native-crypto-js": "^1.0.0"
+    "@react-native-async-storage/async-storage": "^3.0.2",
+    "crypto-js": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "babel-jest": "^30.3.0",
+    "jest": "^30.3.0"
   },
   "homepage": "https://github.com/abhins0554/React-Native-Encrypted-Asyncstorage#readme",
-  "repository": "https://github.com/abhins0554/React-Native-Encrypted-Asyncstorage"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhins0554/React-Native-Encrypted-Asyncstorage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abhins0554/React-Native-Encrypted-Asyncstorage/issues"
+  }
 }
